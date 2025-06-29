@@ -1,8 +1,17 @@
-body {
-        margin: 0;
-        height: 100vh; /* 100% of the viewport height */
-        background-image: url('404NotFoundSized.png');
-        background-size: cover;          /* cover the entire screen */
-        background-position: center;     /* center the image */
-        background-repeat: no-repeat;    /* no tiling */
-      }
+.fourofour {
+    font-size:250px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.high-five {
+    width: 10px;
+    height: 25px;
+    position: fixed;    /* fixed makes it stay in place even on scroll */
+    bottom: 0;          /* pin to the bottom */
+    right: 0;           /* pin to the right */
+
+    }
